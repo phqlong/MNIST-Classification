@@ -26,8 +26,10 @@ class SimpleDenseNet(nn.Module):
         )
 
     def forward(self, x):
+        """ For inference: inputs -> outputs """
         batch_size, channels, width, height = x.size()
 
+        # Transform size: (b, 1, 28, 28) -> (b, 1*28*28)
         # (batch, 1, width, height) -> (batch, 1*width*height)
         x = x.view(batch_size, -1)
 

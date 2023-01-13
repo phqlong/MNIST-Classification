@@ -1,6 +1,7 @@
 wandb
 multirun.yaml
 storage
+*ckpt
 
 # ignore the _version.py file
 _version.py
@@ -35,6 +36,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+data/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
