@@ -1,7 +1,9 @@
 MNIST Classification
 ==============================
 
-A new awesome project.
+This project is to train a model for image classification on MNIST dataset. Using simple dense net, integrated with PytorchLightning, WandB and Hydra. 
+
+This project uses Customized AI Project Template: https://github.com/phqlong/Deep-Learning-Template
 
 Project Organization
 ------------
